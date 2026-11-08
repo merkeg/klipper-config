@@ -150,7 +150,8 @@
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
-      }
+      },
+      "type": "Voron Trident"
     },
     "show_printer_switcher": false
   },
