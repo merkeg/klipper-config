@@ -137,11 +137,10 @@
         "macro_devices": [],
         "selected": [],
         "selected_strips": [
-          "neopixel toolhead_light",
           "output_pin caselight"
         ],
         "startup_brightness": 80,
-        "strip": ""
+        "strip": "output_pin caselight"
       },
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
