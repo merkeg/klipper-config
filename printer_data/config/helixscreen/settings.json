@@ -40,6 +40,11 @@
   },
   "language": "en",
   "log_path": "/tmp/helixscreen.log",
+  "material_overrides": {
+    "ABS": {
+      "nozzle_min": 260
+    }
+  },
   "motion": {
     "jog_mode": 1
   },
