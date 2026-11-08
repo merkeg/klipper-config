@@ -48,6 +48,25 @@
   "motion": {
     "jog_mode": 1
   },
+  "preset_materials": [
+    {
+      "bed": 55,
+      "brand": "Generic",
+      "filament_id": "generic-pla",
+      "name": "PLA",
+      "nozzle": 220,
+      "type": "PLA"
+    },
+    {
+      "type": "PETG"
+    },
+    {
+      "type": "ABS"
+    },
+    {
+      "type": "TPU"
+    }
+  ],
   "printers": {
     "default": {
       "default_macros": {
