@@ -38,6 +38,7 @@
       "valid": false
     }
   },
+  "language": "en",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
     "jog_mode": 1
@@ -69,6 +70,23 @@
         "exhaust": "",
         "hotend": "heater_fan hotend_fan",
         "part": "fan"
+      },
+      "filament": {
+        "external_spool": {
+          "assigned": true,
+          "bed_temp": 50,
+          "brand": "Super-Filament",
+          "catalog_id": "",
+          "color_rgb": 0,
+          "material": "PLA",
+          "nozzle_temp_max": 210,
+          "nozzle_temp_min": 210,
+          "product_name": "",
+          "remaining_weight_g": 727.0068969726563,
+          "spool_name": "PLA PRO Verkehrsschwarz (RAL 9017)",
+          "spoolman_id": 1,
+          "total_weight_g": 1000.0
+        }
       },
       "hardware": {
         "expected": [],
@@ -128,6 +146,7 @@
       "moonraker_api_key": false,
       "moonraker_host": "127.0.0.1",
       "moonraker_port": 7125,
+      "printer_name": "Druckula",
       "temp_sensors": {
         "bed": "heater_bed",
         "hotend": "extruder"
